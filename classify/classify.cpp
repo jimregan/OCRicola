@@ -181,12 +181,12 @@ Classify::Classify()
 }
 
 Classify::~Classify() {
-  EndAdaptiveClassifier();
+  /*EndAdaptiveClassifier();
   delete learn_debug_win_;
   delete learn_fragmented_word_debug_win_;
   delete learn_fragments_debug_win_;
   delete[] CharNormCutoffs;
-  delete[] BaselineCutoffs;
+  delete[] BaselineCutoffs;*/
 }
 
 

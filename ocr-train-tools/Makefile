@@ -159,7 +159,7 @@ CPPFLAGS =  -I/usr/local/include/leptonica -pthread -I/usr/include/pango-1.0 -I/
 CXX = g++
 CXXCPP = g++ -E
 CXXDEPMODE = depmode=gcc3
-CXXFLAGS = 
+CXXFLAGS = -g
 CYGPATH_W = echo
 DEFS = -DHAVE_CONFIG_H
 DEPDIR = .deps
